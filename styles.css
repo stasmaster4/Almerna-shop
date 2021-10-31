@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('fonts/ApercuPro-Light.ttf');
+}
+
+@font-face {
+    font-family: 'History Pro';
+    src: url('fonts/HistoryPro-Two.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+.header-container {
+    height: 32px;
+    background: #111113;
+}
+
+.header-container ul {
+    display: flex;
+    justify-content: center;
+    padding: 7px 24px 0;
+}
+
+.header-container li {
+    padding: 0 20px;
+    list-style: none;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.center-li {
+    margin: 0 510px 0 442px;
+}
+
+/* navigation */
+.nav {
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #111113;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+}
+
+
+.navigation {
+    border-left: 1px solid #111113;
+    height: 74px;
+    padding: 31px 32px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: 'History Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #111113;
+    padding: 0 24px;
+}
+
+.nav-icon {
+    width: 80px;
+    height: 74px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: 1px solid #111113;
+}
+
+.search {
+    background-image: url(img/search.svg);
+}
+
+.heart {
+    background-image: url(img/Heart.svg);
+}
+
+.person {
+    background-image: url(img/User.svg);
+}
+
+.cart {
+    background-image: url(img/shopping-cart.svg);
+}
+
+
+/* section .select */
+.main {
+    background-image: url(img/Rectangle\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main h1 {
+    padding-top: 126px;
+    padding-left: 107px;
+    font-family: 'History Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #111113;
+}
+
+/* 
+
+.text {
+    display: block;
+    justify-content: center;
+    padding-top: 126px;
+    padding-left: 107px;
+}
+
+.summer {
+    font-weight: 600;
+}
+
+.select h1 {
+    font-family: 'History Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #111113;
+}
+
+.select p {
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'salt'on, 'ss01'on;
+    color: #666666;
+}
+
+.ShopNow {
+    width: 165px;
+    height: 56px;
+    background: #000000;
+    border: none;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.FittingRoom {
+    width: 165px;
+    height: 56px;
+    border: 1px solid #111113;
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #111113;
+}   */
